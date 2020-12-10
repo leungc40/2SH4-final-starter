@@ -6,7 +6,10 @@ The question has four parts, answer all of them in this same file*/
  
 /*(a) [5 Marks] write structure Node that holds an integer value as well as a pointer to the next node*/
 //Answer:
-
+typedef struct node {
+  int num;
+  struct Node* next; //creating the structure
+}
 
 
 
@@ -16,7 +19,8 @@ The question has four parts, answer all of them in this same file*/
 /*(b) [5 Marks] Write structure SLL that represents the singly linked list and holds a pointer to the first node in the list.*/
 //Answer:
 
-
+struct SLL{
+  Node *head
 
 
 
